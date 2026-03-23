@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/Level03_HelloWorld/">
     <Project Path="Level03_HelloWorld/HelloWorld/HelloWorld.csproj" />
+    <Project Path="Level03_HelloWorld/TheMakingsOfAProgrammer/TheMakingsOfAProgrammer.csproj" />
     <Project Path="Level03_HelloWorld/WhatComesNext/WhatComesNext.csproj" />
   </Folder>
 </Solution>
