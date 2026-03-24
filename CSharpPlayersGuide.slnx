@@ -5,4 +5,7 @@
     <Project Path="Level03_HelloWorld/TheMakingsOfAProgrammer/TheMakingsOfAProgrammer.csproj" />
     <Project Path="Level03_HelloWorld/WhatComesNext/WhatComesNext.csproj" />
   </Folder>
+  <Folder Name="/Level04_Comments/">
+    <Project Path="Level04_Comments/TheThingNamer3000/TheThingNamer3000.csproj" />
+  </Folder>
 </Solution>
