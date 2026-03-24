@@ -12,4 +12,7 @@
     <Project Path="Level06_TheCSharpTypeSystem/TheVariableShop/TheVariableShop.csproj" />
     <Project Path="Level06_TheCSharpTypeSystem/TheVariableShopReturns/TheVariableShopReturns.csproj" />
   </Folder>
+  <Folder Name="/Level07_Math/">
+    <Project Path="Level07_Math/TheTriangleFarmer/TheTriangleFarmer.csproj" />
+  </Folder>
 </Solution>

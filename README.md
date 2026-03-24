@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-4-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-600-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%204-200-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-11%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-700-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%205-100-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-12%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -53,7 +53,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Knowledge Check: Type System](./Level06_TheCSharpTypeSystem/TypeSystem.md) `+25 XP`
 
 #### Level 7 - Math
-- [ ] Challenge: The Triangle Farmer `+100 XP`
+- [X] [Challenge: The Triangle Farmer](./Level07_Math/TheTriangleFarmer/) `+100 XP`
 - [ ] Challenge: The Four Sisters and the Duckbear `+100 XP`
 - [ ] Challenge: The Dominion of Kings `+100 XP`
 
