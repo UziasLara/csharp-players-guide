@@ -10,5 +10,6 @@
   </Folder>
   <Folder Name="/Level06_TheCSharpTypeSystem/">
     <Project Path="Level06_TheCSharpTypeSystem/TheVariableShop/TheVariableShop.csproj" />
+    <Project Path="Level06_TheCSharpTypeSystem/TheVariableShopReturns/TheVariableShopReturns.csproj" />
   </Folder>
 </Solution>
