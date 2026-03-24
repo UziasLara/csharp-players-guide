@@ -8,4 +8,7 @@
   <Folder Name="/Level04_Comments/">
     <Project Path="Level04_Comments/TheThingNamer3000/TheThingNamer3000.csproj" />
   </Folder>
+  <Folder Name="/Level06_TheCSharpTypeSystem/">
+    <Project Path="Level06_TheCSharpTypeSystem/TheVariableShop/TheVariableShop.csproj" />
+  </Folder>
 </Solution>

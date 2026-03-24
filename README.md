@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-3-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-425-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%204-175-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-8%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-525-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%204-75-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-9%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -48,7 +48,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Knowledge Check: Variables](./Level05_Variables/Variables.md) `+25 XP`
 
 #### Level 6 - The C# Type System
-- [ ] Challenge: The Variable Shop `+100 XP`
+- [X] [Challenge: The Variable Shop](./Level06_TheCSharpTypeSystem/TheVariableShop/) `+100 XP`
 - [ ] Challenge: The Variable Shop Returns `+50 XP`
 - [ ] Knowledge Check: Type System `+25 XP`
 
