@@ -1,20 +1,21 @@
 <Solution>
-  <Folder Name="/Level03_HelloWorld/">
-    <Project Path="Level03_HelloWorld/ConsolasAndTelim/ConsolasAndTelim.csproj" />
-    <Project Path="Level03_HelloWorld/HelloWorld/HelloWorld.csproj" />
-    <Project Path="Level03_HelloWorld/TheMakingsOfAProgrammer/TheMakingsOfAProgrammer.csproj" />
-    <Project Path="Level03_HelloWorld/WhatComesNext/WhatComesNext.csproj" />
+  <Folder Name="/Part01_TheBasics/" />
+  <Folder Name="/Part01_TheBasics/Level03_HelloWorld/">
+    <Project Path="Part01_TheBasics/Level03_HelloWorld/ConsolasAndTelim/ConsolasAndTelim.csproj" />
+    <Project Path="Part01_TheBasics/Level03_HelloWorld/HelloWorld/HelloWorld.csproj" />
+    <Project Path="Part01_TheBasics/Level03_HelloWorld/TheMakingsOfAProgrammer/TheMakingsOfAProgrammer.csproj" />
+    <Project Path="Part01_TheBasics/Level03_HelloWorld/WhatComesNext/WhatComesNext.csproj" />
   </Folder>
-  <Folder Name="/Level04_Comments/">
-    <Project Path="Level04_Comments/TheThingNamer3000/TheThingNamer3000.csproj" />
+  <Folder Name="/Part01_TheBasics/Level04_Comments/">
+    <Project Path="Part01_TheBasics/Level04_Comments/TheThingNamer3000/TheThingNamer3000.csproj" />
   </Folder>
-  <Folder Name="/Level06_TheCSharpTypeSystem/">
-    <Project Path="Level06_TheCSharpTypeSystem/TheVariableShop/TheVariableShop.csproj" />
-    <Project Path="Level06_TheCSharpTypeSystem/TheVariableShopReturns/TheVariableShopReturns.csproj" />
+  <Folder Name="/Part01_TheBasics/Level06_TheCSharpTypeSystem/">
+    <Project Path="Part01_TheBasics/Level06_TheCSharpTypeSystem/TheVariableShop/TheVariableShop.csproj" />
+    <Project Path="Part01_TheBasics/Level06_TheCSharpTypeSystem/TheVariableShopReturns/TheVariableShopReturns.csproj" />
   </Folder>
-  <Folder Name="/Level07_Math/">
-    <Project Path="Level07_Math/The Dominion of Kings/The Dominion of Kings.csproj" />
-    <Project Path="Level07_Math/TheFourSistersAndTheDuckbear/TheFourSistersAndTheDuckbear.csproj" />
-    <Project Path="Level07_Math/TheTriangleFarmer/TheTriangleFarmer.csproj" />
+  <Folder Name="/Part01_TheBasics/Level07_Math/">
+    <Project Path="Part01_TheBasics/Level07_Math/The Dominion of Kings/The Dominion of Kings.csproj" />
+    <Project Path="Part01_TheBasics/Level07_Math/TheFourSistersAndTheDuckbear/TheFourSistersAndTheDuckbear.csproj" />
+    <Project Path="Part01_TheBasics/Level07_Math/TheTriangleFarmer/TheTriangleFarmer.csproj" />
   </Folder>
 </Solution>

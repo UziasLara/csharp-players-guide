@@ -1,4 +1,4 @@
-## Type System
+## Knowledge Check: Type System
 
 1.  **int can store any integer**
 

@@ -30,32 +30,32 @@ I will also attempt to link every completed challenge to its respective solution
 ## Part 1: The Basics 🔰
 
 #### Level 1 - The C# Programming Language
-- [X] [Knowledge Check: C#](./Level01_TheCSharpProgrammingLanguage/CSharp.md) `+25 XP`
+- [X] [Knowledge Check: C#](./Part01_TheBasics/Level01_TheCSharpProgrammingLanguage/CSharp.md) `+25 XP`
 
 #### Level 2 - Getting an IDE
-- [X] [Challenge: Install Visual Studio](./Level02_GettingAnIDE/InstallVisualStudio.md) `+75 XP`
+- [X] [Challenge: Install Visual Studio](./Part01_TheBasics/Level02_GettingAnIDE/InstallVisualStudio.md) `+75 XP`
 
 #### Level 3 - Hello World: Your First Program
-- [X] [Challenge: Hello, World!](./Level03_HelloWorld/HelloWorld/) `+50 XP`
-- [X] [Challenge: What Comes Next](./Level03_HelloWorld/WhatComesNext/) `+50 XP` 
-- [X] [Challenge: The Makings of a Programmer](./Level03_HelloWorld/TheMakingsOfAProgrammer/) `+50XP`
-- [X] [Challenge: Consolas and Telim](./Level03_HelloWorld/TheMakingsOfAProgrammer/) `+50 XP`
+- [X] [Challenge: Hello, World!](./Part01_TheBasics/Level03_HelloWorld/HelloWorld/) `+50 XP`
+- [X] [Challenge: What Comes Next](./Part01_TheBasics/Level03_HelloWorld/WhatComesNext/) `+50 XP` 
+- [X] [Challenge: The Makings of a Programmer](./Part01_TheBasics/Level03_HelloWorld/TheMakingsOfAProgrammer/) `+50XP`
+- [X] [Challenge: Consolas and Telim](./Part01_TheBasics/Level03_HelloWorld/TheMakingsOfAProgrammer/) `+50 XP`
 
 #### Level 4 - Comments
-- [X] [Challenge: The Thing Namer 3000](./Level04_Comments/TheThingNamer3000/) `+100 XP`
+- [X] [Challenge: The Thing Namer 3000](./Part01_TheBasics/Level04_Comments/TheThingNamer3000/) `+100 XP`
 
 #### Level 5 - Variables
-- [X] [Knowledge Check: Variables](./Level05_Variables/Variables.md) `+25 XP`
+- [X] [Knowledge Check: Variables](./Part01_TheBasics/Level05_Variables/Variables.md) `+25 XP`
 
 #### Level 6 - The C# Type System
-- [X] [Challenge: The Variable Shop](./Level06_TheCSharpTypeSystem/TheVariableShop/) `+100 XP`
-- [X] [Challenge: The Variable Shop Returns](./Level06_TheCSharpTypeSystem/TheVariableShopReturns/) `+50 XP`
-- [X] [Knowledge Check: Type System](./Level06_TheCSharpTypeSystem/TypeSystem.md) `+25 XP`
+- [X] [Challenge: The Variable Shop](./Part01_TheBasics/Level06_TheCSharpTypeSystem/TheVariableShop/) `+100 XP`
+- [X] [Challenge: The Variable Shop Returns](./Part01_TheBasics/Level06_TheCSharpTypeSystem/TheVariableShopReturns/) `+50 XP`
+- [X] [Knowledge Check: Type System](./Part01_TheBasics/Level06_TheCSharpTypeSystem/TypeSystem.md) `+25 XP`
 
 #### Level 7 - Math
-- [X] [Challenge: The Triangle Farmer](./Level07_Math/TheTriangleFarmer/) `+100 XP`
-- [X] [Challenge: The Four Sisters and the Duckbear](./Level07_Math/TheFourSistersAndTheDuckbear/) `+100 XP`
-- [X] [Challenge: The Dominion of Kings](./Level07_Math/The%20Dominion%20of%20Kings/) `+100 XP`
+- [X] [Challenge: The Triangle Farmer](./Part01_TheBasics/Level07_Math/TheTriangleFarmer/) `+100 XP`
+- [X] [Challenge: The Four Sisters and the Duckbear](./Part01_TheBasics/Level07_Math/TheFourSistersAndTheDuckbear/) `+100 XP`
+- [X] [Challenge: The Dominion of Kings](./Part01_TheBasics/Level07_Math/The%20Dominion%20of%20Kings/) `+100 XP`
 
 #### Level 8 - Console 2.0
 - [ ] Challenge: The Defense of Consolas `+200 XP`

@@ -1,4 +1,4 @@
-## Variables
+## Knowledge Check: Variables
 
 **What do all variables have?**
 
