@@ -27,5 +27,6 @@
   </Folder>
   <Folder Name="/Part01_TheBasics/Level10_Switches/">
     <Project Path="Part01_TheBasics/Level10_Switches/BuyingInventory/BuyingInventory.csproj" />
+    <Project Path="Part01_TheBasics/Level10_Switches/DiscountedInventory/DiscountedInventory.csproj" />
   </Folder>
 </Solution>
