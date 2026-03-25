@@ -29,4 +29,7 @@
     <Project Path="Part01_TheBasics/Level10_Switches/BuyingInventory/BuyingInventory.csproj" />
     <Project Path="Part01_TheBasics/Level10_Switches/DiscountedInventory/DiscountedInventory.csproj" />
   </Folder>
+  <Folder Name="/Part01_TheBasics/Level11_Looping/">
+    <Project Path="Part01_TheBasics/Level11_Looping/ThePrototype/ThePrototype.csproj" />
+  </Folder>
 </Solution>
