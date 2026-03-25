@@ -23,5 +23,6 @@
   </Folder>
   <Folder Name="/Part01_TheBasics/Level09_DecisionMaking/">
     <Project Path="Part01_TheBasics/Level09_DecisionMaking/RepairingTheClocktower/RepairingTheClocktower.csproj" />
+    <Project Path="Part01_TheBasics/Level09_DecisionMaking/Watchtower/Watchtower.csproj" />
   </Folder>
 </Solution>
