@@ -21,4 +21,7 @@
   <Folder Name="/Part01_TheBasics/Level08_Console/">
     <Project Path="Part01_TheBasics/Level08_Console/TheDefenseOfConsolas/TheDefenseOfConsolas.csproj" />
   </Folder>
+  <Folder Name="/Part01_TheBasics/Level09_DecisionMaking/">
+    <Project Path="Part01_TheBasics/Level09_DecisionMaking/RepairingTheClocktower/RepairingTheClocktower.csproj" />
+  </Folder>
 </Solution>
