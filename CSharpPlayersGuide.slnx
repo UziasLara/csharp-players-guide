@@ -18,4 +18,7 @@
     <Project Path="Part01_TheBasics/Level07_Math/TheFourSistersAndTheDuckbear/TheFourSistersAndTheDuckbear.csproj" />
     <Project Path="Part01_TheBasics/Level07_Math/TheTriangleFarmer/TheTriangleFarmer.csproj" />
   </Folder>
+  <Folder Name="/Part01_TheBasics/Level08_Console/">
+    <Project Path="Part01_TheBasics/Level08_Console/TheDefenseOfConsolas/TheDefenseOfConsolas.csproj" />
+  </Folder>
 </Solution>
