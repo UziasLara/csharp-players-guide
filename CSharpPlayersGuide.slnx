@@ -33,4 +33,7 @@
     <Project Path="Part01_TheBasics/Level11_Looping/TheMagicCannon/TheMagicCannon.csproj" />
     <Project Path="Part01_TheBasics/Level11_Looping/ThePrototype/ThePrototype.csproj" />
   </Folder>
+  <Folder Name="/Part01_TheBasics/Level12_Arrays/">
+    <Project Path="Part01_TheBasics/Level12_Arrays/TheReplicatorOfDTo/TheReplicatorOfDTo.csproj" />
+  </Folder>
 </Solution>

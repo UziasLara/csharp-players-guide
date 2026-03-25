@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-9-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-1650-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2010-150-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-21%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-1750-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2010-50-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-22%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -73,7 +73,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Challenge: The Magic Cannon](./Part01_TheBasics/Level11_Looping/TheMagicCannon/) `+100 XP`
 
 #### Level 12 - Arrays
-- [ ] Challenge: The Replicator of D’To `+100 XP`
+- [X] [Challenge: The Replicator of D’To](./Part01_TheBasics/Level12_Arrays/TheReplicatorOfDTo/) `+100 XP`
 - [ ] Challenge: The Laws of Freach `+50 XP`
 
 #### Level 13 - Methods
