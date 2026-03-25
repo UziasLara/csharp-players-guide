@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-10-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-1800-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2011-200-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-23%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-1900-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2011-100-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-24%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -74,10 +74,10 @@ I will also attempt to link every completed challenge to its respective solution
 
 #### Level 12 - Arrays
 - [X] [Challenge: The Replicator of D’To](./Part01_TheBasics/Level12_Arrays/TheReplicatorOfDTo/) `+100 XP`
-- [ ] Challenge: The Laws of Freach `+50 XP`
+- [X] [Challenge: The Laws of Freach](./Part01_TheBasics/Level12_Arrays/TheLawsOfFreach/) `+50 XP`
 
 #### Level 13 - Methods
-- [ ] Challenge: Taking a Number `+100 XP`
+- [X] [Challenge: Taking a Number](./Part01_TheBasics/Level13_Methods/TakingANumber/) `+100 XP`
 - [ ] Challenge: Countdown `+100 XP`
 
 #### Level 14 - Memory Management
