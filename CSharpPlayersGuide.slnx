@@ -44,4 +44,8 @@
   <Folder Name="/Part01_TheBasics/Level14_MemoryManagement/">
     <Project Path="Part01_TheBasics/Level14_MemoryManagement/HuntingTheManticore/HuntingTheManticore.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/" />
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level16_Enumerations/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level16_Enumerations/SimulasTest/SimulasTest.csproj" />
+  </Folder>
 </Solution>
