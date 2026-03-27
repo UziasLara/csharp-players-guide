@@ -86,7 +86,7 @@ I will also attempt to link every completed challenge to its respective solution
 ## Part 2: Object-Oriented Programming 🤖
 
 #### Level 15 - Object-Oriented Concepts
-- [X] [Knowledge Check: Objects](./Part01_TheBasics/Level15_ObjectOrientedConcepts/Objects.md) `+25 XP`
+- [X] [Knowledge Check: Objects](./Part02_ObjectOrientedProgramming/Level15_ObjectOrientedConcepts/Objects.md) `+25 XP`
 
 #### Level 16 - Enumerations
 - [ ] Challenge: Simula’s Test `+100 XP`
