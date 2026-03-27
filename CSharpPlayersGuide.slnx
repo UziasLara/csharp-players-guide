@@ -41,4 +41,7 @@
     <Project Path="Part01_TheBasics/Level13_Methods/Countdown/Countdown.csproj" />
     <Project Path="Part01_TheBasics/Level13_Methods/TakingANumber/TakingANumber.csproj" />
   </Folder>
+  <Folder Name="/Part01_TheBasics/Level14_MemoryManagement/">
+    <Project Path="Part01_TheBasics/Level14_MemoryManagement/HuntingTheManticore/HuntingTheManticore.csproj" />
+  </Folder>
 </Solution>
