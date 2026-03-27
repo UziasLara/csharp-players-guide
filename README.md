@@ -17,17 +17,10 @@ I will also attempt to link every completed challenge to its respective solution
 **Cheers! The adventure awaits!**
 
 <details>
-  <summary><b> Quest Log ⚔️ </b></summary>
 
-  - [Part 1: The Basics](#part-1-the-basics-) 🔰
-  - [Part 2: Object-Oriented Programming](#part-2-object-oriented-programming-) 🤖
-  - [Part 3: Advanced Features](#part-3-advanced-features-) 🌊
-  - [Part 4: The Endgame](#part-4-the-endgame-) 🏹
-  - [Part 5: Bonus Levels](#part-5-bonus-levels-) 🌟
-    
-</details>
+<summary><h3>Part 1: The Basics 🔰</h3></summary>
 
-## Part 1: The Basics 🔰
+<blockquote>
 
 #### Level 1 - The C# Programming Language
 - [X] [Knowledge Check: C#](./Part01_TheBasics/Level01_TheCSharpProgrammingLanguage/CSharp.md) `+25 XP`
@@ -85,6 +78,10 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Challenge: Hunting the Manticore](./Part01_TheBasics/Level14_MemoryManagement/HuntingTheManticore/) `+250 XP`
 
 ---
+
+</blockquote>
+
+</details>
 
 ## Part 2: Object-Oriented Programming 🤖
 
