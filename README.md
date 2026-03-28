@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-13-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-2400-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2014-200-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-29%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-2500-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2014-100-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-30%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -92,7 +92,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Challenge: Simula’s Test](./Part02_ObjectOrientedProgramming/Level16_Enumerations/SimulasTest/) `+100 XP`
 
 #### Level 17 - Tuples
-- [ ] Challenge: Simula’s Soups `+100 XP`
+- [X] [Challenge: Simula’s Soup](./Part02_ObjectOrientedProgramming/Level17_Tuples/SimulasSoup/) `+100 XP`
 
 #### Level 18 - Classes
 - [ ] Challenge: Vin Fletcher’s Arrows `+100 XP`
