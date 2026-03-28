@@ -51,4 +51,7 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level17_Tuples/">
     <Project Path="Part02_ObjectOrientedProgramming/Level17_Tuples/SimulasSoup/SimulasSoup.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level18_Classes/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level18_Classes/VinFletchersArrows/VinFletchersArrows.csproj" />
+  </Folder>
 </Solution>
