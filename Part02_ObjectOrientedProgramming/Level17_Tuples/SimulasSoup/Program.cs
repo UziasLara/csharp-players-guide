@@ -27,7 +27,6 @@ Console.WriteLine($"Your piping hot {meal.seasoning} {meal.ingredient} {meal.bro
     return ((Broth)broth, (Ingredient)ingredient, (Seasoning)seasoning);
 }
 
-
 enum Broth { Soup = 1, Stew = 2, Gumbo = 3 }
-enum Ingredient { Mushrooms = 1, Chicken = 2, Carrot = 3, Potatoe = 4 }
+enum Ingredient { Mushroom = 1, Chicken = 2, Carrot = 3, Potato = 4 }
 enum Seasoning { Spicy = 1, Salty = 2, Sweet = 3 }
