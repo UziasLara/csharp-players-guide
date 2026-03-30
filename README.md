@@ -1,10 +1,10 @@
 # The C# Player's Guide Challenges
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
-![Current Level](https://custom-icon-badges.demolab.com/badge/Level-14-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-2750-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2015-50-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-33%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Current Level](https://custom-icon-badges.demolab.com/badge/Level-15-01A4FF.svg?logo=shield-check&logoColor=white) 
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-2850-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2016-150-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-34%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -104,7 +104,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Challenge: The Properties of Arrows](./Part02_ObjectOrientedProgramming/Level20_Properties/ThePropertiesOfArrows/) `+100 XP`
 
 #### Level 21 - Static
-- [ ] Challenge: Arrow Factories `+100 XP`
+- [X] [Challenge: Arrow Factories](./Part02_ObjectOrientedProgramming/Level21_Static/ArrowFactories/) `+100 XP`
 
 #### Level 24 - The Catacombs of the Class
 - [ ] Challenge: The Point `+75 XP`

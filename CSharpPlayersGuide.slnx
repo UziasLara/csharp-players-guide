@@ -60,4 +60,7 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level20_Properties/">
     <Project Path="Part02_ObjectOrientedProgramming/Level20_Properties/ThePropertiesOfArrows/ThePropertiesOfArrows.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level21_Static/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level21_Static/ArrowFactories/ArrowFactories.csproj" />
+  </Folder>
 </Solution>
