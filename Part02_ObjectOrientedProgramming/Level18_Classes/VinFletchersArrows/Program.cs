@@ -11,7 +11,7 @@ Console.WriteLine("---------------------------------");
 Console.WriteLine($"Your {userArrow.Length}cm {userArrow.Arrowhead} and {userArrow.Fletching} arrow costs {arrow.GetPrice()} gold.");
 
 // Intake and compute user arrow preferences.
-(Arrowhead Arrowhead, Fletching Fletching, decimal Length) GetUserArrow()
+(Arrowhead Arrowhead, Fletching Fletching, float Length) GetUserArrow()
 {
     Console.Clear();
     string userInput;
@@ -32,7 +32,8 @@ Console.WriteLine($"Your {userArrow.Length}cm {userArrow.Arrowhead} and {userArr
         _ => Fletching.GooseFeather
     };
 
-    decimal arrowLength = Convert.ToDecimal(GetUserInput("How long would you like your arrow to be? (in cm) "));
+    Console.Write("We can make your arrow between 60 and 100 cm. How long would you like it to be? ");
+    float arrowLength = GetLengthInRange(60,100);
 
     return (userArrowhead, userFletching, arrowLength);
 }
@@ -44,13 +45,22 @@ string GetUserInput(string text)
     return Console.ReadLine();
 }
 
+float GetLengthInRange(float min, float max)
+{
+    while(true)
+    {
+        float length = Convert.ToSingle(Console.ReadLine());
+        if (length >= min && length <= max) return length;
+        Console.Write("Invalid length. Try again: ");
+    }
+}
 class Arrow
 {
     Arrowhead _arrowhead;
     Fletching _fletching;
-    decimal _length;
+    float _length;
     decimal _pricePerCM = 0.05m;
-    public Arrow(Arrowhead arrowhead, Fletching fletching, decimal length)
+    public Arrow(Arrowhead arrowhead, Fletching fletching, float length)
     {
         _arrowhead = arrowhead;
         _fletching = fletching;
@@ -58,7 +68,7 @@ class Arrow
     }
 
     // Uses enum indexes as price indexes
-    public decimal GetPrice() => ((int)_arrowhead + (int)_fletching + _length*_pricePerCM);
+    public decimal GetPrice() => ((int)_arrowhead + (int)_fletching + ((decimal)_length * _pricePerCM));
 }
 
 
