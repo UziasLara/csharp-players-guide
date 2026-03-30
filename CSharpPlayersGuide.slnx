@@ -54,4 +54,7 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level18_Classes/">
     <Project Path="Part02_ObjectOrientedProgramming/Level18_Classes/VinFletchersArrows/VinFletchersArrows.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level19_InformationHiding/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level19_InformationHiding/VinsTrouble/VinsTrouble.csproj" />
+  </Folder>
 </Solution>
