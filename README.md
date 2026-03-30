@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-16-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-3025-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2017-175-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-36%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-3125-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2017-75-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-37%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -109,7 +109,7 @@ I will also attempt to link every completed challenge to its respective solution
 #### Level 24 - The Catacombs of the Class
 - [X] [Challenge: The Point](./Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/ThePoint/) `+75 XP`
 - [X] [Challenge: The Color](./Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/TheColor/) `+100 XP`
-- [ ] Challenge: The Card `+100 XP`
+- [X] [Challenge: The Card](./Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/TheCard/) `+100 XP`
 - [ ] Challenge: The Locked Door `+100 XP`
 - [ ] Challenge: The Password Validator `+100 XP`
 - [ ] Challenge: Rock-Paper-Scissors `+150 XP`
