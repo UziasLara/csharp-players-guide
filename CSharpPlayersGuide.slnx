@@ -64,6 +64,7 @@
     <Project Path="Part02_ObjectOrientedProgramming/Level21_Static/ArrowFactories/ArrowFactories.csproj" />
   </Folder>
   <Folder Name="/Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/TheColor/TheColor.csproj" />
     <Project Path="Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/ThePoint/ThePoint.csproj" />
   </Folder>
 </Solution>
