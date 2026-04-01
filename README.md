@@ -1,10 +1,10 @@
 # The C# Player's Guide Challenges
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
-![Current Level](https://custom-icon-badges.demolab.com/badge/Level-18-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-3475-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2019-125-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-40%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Current Level](https://custom-icon-badges.demolab.com/badge/Level-19-01A4FF.svg?logo=shield-check&logoColor=white) 
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-3625-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2020-175-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-41%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -113,7 +113,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Boss Battle: The Locked Door](./Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/TheLockedDoor/) `+100 XP`
 - [X] [Boss Battle: The Password Validator](./Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/ThePasswordValidator/) `+100 XP`
 - [X] [Boss Battle: Rock-Paper-Scissors](./Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/RockPaperScissors.md) `+150 XP`
-- [ ] Boss Battle: 15-Puzzle `+150 XP`
+- [X] [Boss Battle: 15-Puzzle](./Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/FifteenPuzzle.md) `+150 XP`
 - [ ] Boss Battle: Hangman `+150 XP`
 - [ ] Boss Battle: Tic-Tac-Toe `+300 XP`
 
