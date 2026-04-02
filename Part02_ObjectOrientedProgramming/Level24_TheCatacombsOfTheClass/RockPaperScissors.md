@@ -1,8 +1,8 @@
 ## Rock-Paper-Scissors
 
-**Create CRS Cards for a game of Rock-Paper-Scissors**
+**Create CRC cards for a game of Rock-Paper-Scissors**
 
->|   Game Manager        |   Helper Classes  |
+>|   GameManager         |   Helper Classes  |
 >|   -----------         |   -----------     |
 >|   Starts Game         |   **RPS Game**    |
 >|   Keeps History       |   **Player**      | 
@@ -10,7 +10,7 @@
 
 ---
 
->|   RPS Game            |   Helper Classes  |
+>|   RPSGame             |   Helper Classes  |
 >|   -----------         |   -----------     |
 >|   Tracks Round        |   **Player**      |
 

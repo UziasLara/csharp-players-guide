@@ -1,8 +1,12 @@
+## 15-Puzzle
+
+**Create CRC cards for the game of 15-Puzzle**
+
 **Does this design need to change to allow for different size boards?**
 
 > The design itself shouldn't need to change. Different logic may be needed but as long as it is built with modularity in mind, it should be doable. After all, software is *soft*.
 
->|  Game Manager    |   Helper Classes      |
+>|  GameManager     |   Helper Classes      |
 >|  ---             |    ---                |
 >|  Track Stats     |   **Fifteen Puzzle**  |
 >|  Display Results |                       |  
