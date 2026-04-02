@@ -69,5 +69,6 @@
     <Project Path="Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/TheLockedDoor/TheLockedDoor.csproj" />
     <Project Path="Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/ThePasswordValidator/ThePasswordValidator.csproj" />
     <Project Path="Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/ThePoint/ThePoint.csproj" />
+    <Project Path="Part02_ObjectOrientedProgramming/Level24_TheCatacombsOfTheClass/TicTacToe/TicTacToe.csproj" />
   </Folder>
 </Solution>
