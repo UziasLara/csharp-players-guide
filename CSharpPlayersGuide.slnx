@@ -74,4 +74,8 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level25_Inheritance/">
     <Project Path="Part02_ObjectOrientedProgramming/Level25_Inheritance/PackingInventory/PackingInventory.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level26_Polymorphism/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level26_Polymorphism/LabelingInventory/LabelingInventory.csproj" />
+    <Project Path="Part02_ObjectOrientedProgramming/Level26_Polymorphism/TheOldRobot/TheOldRobot.csproj" />
+  </Folder>
 </Solution>
