@@ -78,4 +78,7 @@
     <Project Path="Part02_ObjectOrientedProgramming/Level26_Polymorphism/LabelingInventory/LabelingInventory.csproj" />
     <Project Path="Part02_ObjectOrientedProgramming/Level26_Polymorphism/TheOldRobot/TheOldRobot.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level27_Interfaces/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level27_Interfaces/RoboticInterface/RoboticInterface.csproj" />
+  </Folder>
 </Solution>

@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-23-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-4475-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2024-125-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-46%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-4550-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2024-50-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-47%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -125,7 +125,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Challenge: The Old Robot](./Part02_ObjectOrientedProgramming/Level26_Polymorphism/TheOldRobot/) `+200 XP`
 
 #### Level 27 - Interfaces
-- [ ] Challenge: Robotic Interface `+75 XP`
+- [X] [Challenge: Robotic Interface](./Part02_ObjectOrientedProgramming/Level27_Interfaces/RoboticInterface/) `+75 XP`
 
 #### Level 28 - Structs
 - [ ] Challenge: Room Coordinates `+50 XP`
