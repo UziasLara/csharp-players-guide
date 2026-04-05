@@ -81,4 +81,7 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level27_Interfaces/">
     <Project Path="Part02_ObjectOrientedProgramming/Level27_Interfaces/RoboticInterface/RoboticInterface.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level28_Structs/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level28_Structs/RoomCoordinates/RoomCoordinates.csproj" />
+  </Folder>
 </Solution>
