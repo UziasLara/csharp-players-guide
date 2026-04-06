@@ -84,4 +84,7 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level28_Structs/">
     <Project Path="Part02_ObjectOrientedProgramming/Level28_Structs/RoomCoordinates/RoomCoordinates.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level29_Records/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level29_Records/WarPreparations/WarPreparations.csproj" />
+  </Folder>
 </Solution>
