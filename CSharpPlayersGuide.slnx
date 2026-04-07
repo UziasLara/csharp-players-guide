@@ -87,4 +87,7 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level29_Records/">
     <Project Path="Part02_ObjectOrientedProgramming/Level29_Records/WarPreparations/WarPreparations.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level30_Generics/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level30_Generics/ColoredItems/ColoredItems.csproj" />
+  </Folder>
 </Solution>
