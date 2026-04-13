@@ -1,10 +1,10 @@
 # The C# Player's Guide Challenges
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
-![Current Level](https://custom-icon-badges.demolab.com/badge/Level-25-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-4800-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2026-200-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-50%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Current Level](https://custom-icon-badges.demolab.com/badge/Level-28-01A4FF.svg?logo=shield-check&logoColor=white) 
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-5400-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2029-200-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-52%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -137,13 +137,13 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Challenge: Colored Items](./Part02_ObjectOrientedProgramming/Level30_Generics/ColoredItems/) `+100 XP`
 
 #### Level 31 - The Fountain of Objects
-- [ ] Challenge: The Fountain of Objects `+500 XP`
-- [ ] Challenge: Small, Medium, or Large `+100 XP`
-- [ ] Challenge: Pits `+100 XP`
-- [ ] Challenge: Maelstroms `+100 XP`
-- [ ] Challenge: Amaroks `+100 XP`
-- [ ] Challenge: Getting Armed `+100 XP`
-- [ ] Challenge: Getting Help `+100 XP`
+- [X] [Boss Battle: The Fountain of Objects](./Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/TheFountainOfObjects/) `+500 XP`
+- [X] [Boss Battle: Small, Medium, or Large](./Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/) `+100 XP`
+- [ ] Boss Battle: Pits `+100 XP`
+- [ ] Boss Battle: Maelstroms `+100 XP`
+- [ ] Boss Battle: Amaroks `+100 XP`
+- [ ] Boss Battle: Getting Armed `+100 XP`
+- [ ] Boss Battle: Getting Help `+100 XP`
 
 #### Level 32 - Some Useful Types
 - [ ] Challenge: The Robot Pilot `+50 XP`

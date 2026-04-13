@@ -20,14 +20,12 @@ class GameManager : IGameWorld
             new FountainSense(),
             new EntranceSense()
         };
-
+        
         ShowHelp();
 
         while (!HasWinner)
         {
             Console.Clear();
-            Board.SetRoomAt(new Point(0, 0), Room.Entrance);
-            Board.SetRoomAt(new Point(0, 2), Room.Fountain);
             Renderer.DisplayPlayer(Player);
 
             foreach (ISense sense in senses)
