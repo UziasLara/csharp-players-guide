@@ -90,4 +90,8 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level30_Generics/">
     <Project Path="Part02_ObjectOrientedProgramming/Level30_Generics/ColoredItems/ColoredItems.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/TheFountainOfObjects/TheFountainOfObjects.csproj" />
+  </Folder>
+  <Project Path="../../LeetCode/csharp/LeetCode/LeetCode.csproj" />
 </Solution>

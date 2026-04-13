@@ -1,0 +1,1 @@
+record struct Point(int Row, int Col);
