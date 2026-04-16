@@ -1,3 +1,6 @@
+/// <summary>
+/// Represents the main character in The Fountain of Objects game.
+/// </summary>
 class Player : Entity
 {
     public string DeathMessage { get; private set; } = string.Empty;

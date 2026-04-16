@@ -24,7 +24,7 @@ class FountainSense : ISense
     }
 }
 /// <summary>
-/// Represents the Entrance ISense to display to the user based on <see cref="IGameWord"/> status.
+/// Represents the Entrance ISense to display to the user based on <see cref="IGameWorld"/> status.
 /// </summary>
 class EntranceSense : ISense
 {
@@ -36,7 +36,9 @@ class EntranceSense : ISense
         }
     }
 }
-
+/// <summary>
+/// Represents the Pit ISense to display to the user based on <see cref="IGameWorld"/> status. 
+/// </summary>
 class PitSense : ISense
 {
     public void Execute(IGameWorld world)
@@ -47,20 +49,26 @@ class PitSense : ISense
         }
     }
 }
-
-class MaelstromSense : ISense
+/// <summary>
+/// Represents the Monster ISense to display to the user based on <see cref="IGameWorld"/> status. 
+/// </summary>
+class MonsterSense : ISense
 {
     public void Execute(IGameWorld world)
     {
         Point player = world.Player.Point;
 
+        string alert = string.Empty;
+
         foreach (Monster monster in world.Monsters)
         {
-            if (monster is Maelstrom && world.Board.AreAllAroundAdjacent(player, monster.Point))
+            if (world.Board.AreAllAroundAdjacent(player, monster.Point))
             {
-                Console.WriteLine("You hear the growling and groaning of a maelstron nearby");
-                break;
+                if (monster is Maelstrom) alert = "You hear the growling and groaning of a maelstron nearby.";
+                else if (monster is Amarok) alert = "You smell the rotten stench of an amarok in a nearby room.";
+                Console.WriteLine(alert);
             }
+            
         }
     }
 }

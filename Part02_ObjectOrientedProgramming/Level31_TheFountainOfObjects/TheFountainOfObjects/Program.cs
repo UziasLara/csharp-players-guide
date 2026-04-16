@@ -20,15 +20,17 @@ GameManager SmallGame()
     GameManager smallGame = new(new Board(4, 4), new Player(), monsters);
     smallGame.Board.SetRoomAt(new Point(0, 0), Room.Entrance);
     smallGame.Board.SetRoomAt(new Point(0, 2), Room.Fountain);
-    smallGame.Board.SetRoomAt(new Point(3,1), Room.Pit);
+    smallGame.Board.SetRoomAt(new Point(3, 1), Room.Pit);
     return smallGame;
 }
 
 GameManager MediumGame()
 {
-        Monster[] monsters =
-    {
-        new Maelstrom(new Point(3,3))
+    Monster[] monsters =
+{
+        new Maelstrom(new Point(3, 3)),
+        new Amarok(new Point(4, 5)),
+        new Amarok(new Point(5,1))
     };
     GameManager mediumGame = new(new Board(6, 6), new Player(), monsters);
     mediumGame.Board.SetRoomAt(new Point(0, 0), Room.Entrance);
@@ -38,14 +40,18 @@ GameManager MediumGame()
 }
 GameManager LargeGame()
 {
-        Monster[] monsters =
-    {
-        new Maelstrom(new Point(5,5))
+    Monster[] monsters =
+{
+        new Maelstrom(new Point(5, 5)),
+        new Maelstrom( new Point(1, 1)),
+        new Amarok(new Point(1, 3)),
+        new Amarok(new Point(3, 6)),
+        new Amarok(new Point(7, 3))
     };
 
     GameManager largeGame = new(new Board(8, 8), new Player(), monsters);
     largeGame.Board.SetRoomAt(new Point(0, 0), Room.Entrance);
     largeGame.Board.SetRoomAt(new Point(4, 6), Room.Fountain);
-    largeGame.Board.SetRoomAt(new Point(3, 2), Room.Pit);
+    largeGame.Board.SetRoomAt(new Point(6, 7), Room.Pit);
     return largeGame;
 }

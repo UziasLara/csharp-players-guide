@@ -23,7 +23,7 @@ class GameManager : IGameWorld
             new FountainSense(),
             new EntranceSense(),
             new PitSense(),
-            new MaelstromSense()
+            new MonsterSense()
         };
 
         ShowHelp();
@@ -47,16 +47,16 @@ class GameManager : IGameWorld
 
             foreach (Monster monster in Monsters)
             {
-                if (monster is Maelstrom && Player.Point == monster.Point)
+                if (monster.Point == Player.Point)
                 {
-                    // Initialize next Point to 1-unit south and 2-units west
-                    Point next = new Point(Player.Point.Row + 1, Player.Point.Col - 2);
-                    Player.MoveTo(Board.Clamp(next));
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine($"You were moved to: {Player.GetPositionLabel()} by the maelstrom.");
-                    Console.ResetColor();
-                    Console.WriteLine("Press any key to continue");
-                    Console.ReadKey();
+                    if (monster is Maelstrom)
+                    {
+                        monster.Encounter(this);
+                        Renderer.PrettyPrint(monster.EncounterMessage, ConsoleColor.Blue);
+                        Console.WriteLine("Press any key to continue...");
+                        Console.ReadKey();
+                    }
+                    if (monster is Amarok) monster.Encounter(this);
                 }
             }
             if (Board.GetRoomAt(Player.Point) == Room.Pit)
@@ -66,18 +66,8 @@ class GameManager : IGameWorld
 
 
         }
-        if (HasWinner)
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("The Fountain of Objects has been reactivated, and you have escaped with your life!\nYou win!");
-            Console.ResetColor();
-        }
-        else
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(Player.DeathMessage);
-            Console.WriteLine("Gave Over");
-        }
+        if (HasWinner) Renderer.PrettyPrint("The Fountain of Objects has been reactivated, and you have escaped with your life!\nYou win!", ConsoleColor.Green);
+        else Renderer.PrettyPrint($"{Player.DeathMessage}\nGame Over", ConsoleColor.Red);
 
     }
     /// <summary>
@@ -115,5 +105,11 @@ class GameManager : IGameWorld
     /// Calls Renderer's <see cref="Renderer.DisplayHelper"/> method to display useful commands to the user.
     /// </summary>
     public void ShowHelp() => Renderer.DisplayHelper();
+    /// <summary>
+    /// Helper 
+    /// </summary>
+    /// <param name="text"></param>
+    /// <param name="color"></param>
+
 
 }

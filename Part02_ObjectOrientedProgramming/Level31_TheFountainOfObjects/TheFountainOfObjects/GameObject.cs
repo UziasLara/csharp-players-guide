@@ -1,4 +1,10 @@
-class GameObject {}
+/// <summary>
+/// Base class used to represent game objects, such as Entity.
+/// </summary>
+class GameObject { }
+/// <summary>
+/// Represents the base class from which Monster and Player are derived.
+/// </summary>
 class Entity : GameObject
 {
     public Point Point { get; private set; }
@@ -8,14 +14,4 @@ class Entity : GameObject
     //public void MoveBy(Point point) => this.Point =new Point(this.Point.Row + point.Row, this.Point.Col + point.Col);
     public string GetPositionLabel() => $"(Row={Point.Row}, Column={Point.Col})";
     public void Kill() => IsAlive = false;
-}
-
-class Monster : Entity
-{
-    public Monster(Point point)
-    {
-        MoveTo(point);
-    }
-
-
 }
