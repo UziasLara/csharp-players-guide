@@ -1,3 +1,6 @@
+/// <summary>
+/// Represents an Amarok that kills players on encounter.
+/// </summary>
 class Amarok : Monster
 {
     public Amarok(Point point) : base(point)

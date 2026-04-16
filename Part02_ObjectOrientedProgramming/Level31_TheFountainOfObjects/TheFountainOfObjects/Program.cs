@@ -10,7 +10,8 @@ GameManager? game = gameSize switch
 
 game?.Run();
 
-
+// Returns a small 4x4 Fountain of Objects game
+// with 1 Pit and 1 Maelstrom
 GameManager SmallGame()
 {
     Monster[] monsters =
@@ -24,6 +25,8 @@ GameManager SmallGame()
     return smallGame;
 }
 
+// Returns a medium 6x6 Fountain of Objects game
+// with 1 Pit, 1 Maelstrom, and 2 Amaroks
 GameManager MediumGame()
 {
     Monster[] monsters =
@@ -38,6 +41,9 @@ GameManager MediumGame()
     mediumGame.Board.SetRoomAt(new Point(4, 4), Room.Pit);
     return mediumGame;
 }
+
+// Returns a large 8x8 Fountain of Objects game
+// with 1 Pit, 2 Maelstroms, and 3 Amaroks.
 GameManager LargeGame()
 {
     Monster[] monsters =

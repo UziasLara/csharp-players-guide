@@ -45,11 +45,13 @@ class GameManager : IGameWorld
             ICommand? command = GetCommand(action);
             command?.Execute(this);
 
+            if (command == null) continue; // break early if command is invalid.
+
             foreach (Monster monster in Monsters)
             {
                 if (monster.Point == Player.Point)
                 {
-                    if (monster is Maelstrom)
+                    if (monster is Maelstrom && monster.IsAlive)
                     {
                         monster.Encounter(this);
                         Renderer.PrettyPrint(monster.EncounterMessage, ConsoleColor.Blue);
@@ -96,6 +98,10 @@ class GameManager : IGameWorld
             "move west" => new MoveCommand(Direction.West),
             "enable fountain" => new EnableFountainCommand(),
             "exit cavern" => new ExitCavernCommand(),
+            "shoot north" => new AttackCommand(Direction.North),
+            "shoot south" => new AttackCommand(Direction.South),
+            "shoot east" => new AttackCommand(Direction.East),
+            "shoot west" => new AttackCommand(Direction.West),
             "help" => new HelperCommand(),
 
             _ => null

@@ -9,4 +9,9 @@ abstract class Monster : Entity
         MoveTo(point);
     }
     public abstract void Encounter(IGameWorld world);
+    public override void Kill()
+    {
+        DeathMessage = $"{this.GetType().Name} has been slayed.";
+        IsAlive = false;
+    }
 }

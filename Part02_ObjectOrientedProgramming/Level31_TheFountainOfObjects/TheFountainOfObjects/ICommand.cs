@@ -1,3 +1,6 @@
+using System.Data;
+
+
 /// <summary>
 /// Base class to build game commands upon
 /// </summary>
@@ -16,6 +19,7 @@ class HelperCommand : ICommand
         world.ShowHelp();
     }
 }
+
 
 
 

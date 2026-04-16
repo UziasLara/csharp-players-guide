@@ -32,7 +32,7 @@ class MoveCommand : ICommand
             Direction.South => new Point(original.Row + stepSize, original.Col),
             Direction.East => new Point(original.Row, original.Col + stepSize),
             Direction.West => new Point(original.Row, original.Col - stepSize),
-            _ => new Point(0, 0)
+            _ => original
         };
     }
 

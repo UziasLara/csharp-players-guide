@@ -50,7 +50,7 @@ class PitSense : ISense
     }
 }
 /// <summary>
-/// Represents the Monster ISense to display to the user based on <see cref="IGameWorld"/> status. 
+/// Represents the Monster ISense to display to the user based on <see cref="Monster"/> nearby. 
 /// </summary>
 class MonsterSense : ISense
 {
@@ -62,7 +62,7 @@ class MonsterSense : ISense
 
         foreach (Monster monster in world.Monsters)
         {
-            if (world.Board.AreAllAroundAdjacent(player, monster.Point))
+            if (monster.IsAlive && world.Board.AreAllAroundAdjacent(player, monster.Point))
             {
                 if (monster is Maelstrom) alert = "You hear the growling and groaning of a maelstron nearby.";
                 else if (monster is Amarok) alert = "You smell the rotten stench of an amarok in a nearby room.";
