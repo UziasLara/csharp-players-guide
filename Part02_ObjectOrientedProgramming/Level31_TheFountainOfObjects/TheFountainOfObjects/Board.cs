@@ -28,6 +28,24 @@ class Board
     public bool IsOnBoard(Point point) =>
         point.Row >= 0 && point.Row < Rooms.GetLength(0) &&
         point.Col >= 0 && point.Col < Rooms.GetLength(1);
+
+    public bool IsAdjacentTo(Point point, Room room)
+    {
+        if (GetRoomAt(new Point(point.Row - 1, point.Col)) == room) return true;
+        if (GetRoomAt(new Point(point.Row + 1, point.Col)) == room) return true;
+        if (GetRoomAt(new Point(point.Row, point.Col - 1)) == room) return true;
+        if (GetRoomAt(new Point(point.Row, point.Col + 1)) == room) return true;
+        return false;
+
+    }
+
+    public bool AreAdjacent(Point source, Point target)
+    {
+        int row = Math.Abs(source.Row - target.Row);
+        int col = Math.Abs(source.Col - target.Col);
+        
+        return (row + col) == 1;
+    }
 }
 
 

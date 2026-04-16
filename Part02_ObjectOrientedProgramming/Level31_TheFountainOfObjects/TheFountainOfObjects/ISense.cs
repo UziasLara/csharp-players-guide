@@ -37,3 +37,14 @@ class EntranceSense : ISense
     }
 } 
 
+class PitSense : ISense
+{
+    public void Execute(IGameWorld world)
+    {
+        if(world.Board.IsAdjacentTo(world.Player.Point, Room.Pit))
+        {
+            Console.WriteLine("You feel a draft. There is a pit in a nearby room.");
+        }
+    }
+}
+

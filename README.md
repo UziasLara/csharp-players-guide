@@ -2,13 +2,13 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-28-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-5400-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2029-200-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-52%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-5500-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2029-100-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-53%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
-It has been a while since I read this book and I thoroughly enjoyed it and I figured I may as well track my progress the second, *third?* time around.
+It has been a while since I read this book and I thoroughly enjoyed it and I figured I may as well track my progress this time around.
 
 I'm dividing the following sections as presented in the book. I will also present a banner atop this README to track my progress while earning "XP" with each completed challenge.
 
@@ -138,8 +138,8 @@ I will also attempt to link every completed challenge to its respective solution
 
 #### Level 31 - The Fountain of Objects
 - [X] [Boss Battle: The Fountain of Objects](./Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/TheFountainOfObjects/) `+500 XP`
-- [X] [Boss Battle: Small, Medium, or Large](./Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/) `+100 XP`
-- [ ] Boss Battle: Pits `+100 XP`
+- [X] [Boss Battle: Small, Medium, or Large](./Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/TheFountainOfObjects/) `+100 XP`
+- [X] [Boss Battle: Pits](./Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/TheFountainOfObjects/) `+100 XP`
 - [ ] Boss Battle: Maelstroms `+100 XP`
 - [ ] Boss Battle: Amaroks `+100 XP`
 - [ ] Boss Battle: Getting Armed `+100 XP`

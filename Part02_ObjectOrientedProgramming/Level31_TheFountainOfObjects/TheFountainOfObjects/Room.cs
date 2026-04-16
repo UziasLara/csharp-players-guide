@@ -1,1 +1,1 @@
-public enum Room { None, Entrance, Fountain }
+public enum Room { None, Entrance, Fountain, Pit }

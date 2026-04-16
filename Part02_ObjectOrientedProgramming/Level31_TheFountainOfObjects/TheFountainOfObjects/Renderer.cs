@@ -10,6 +10,8 @@ class Renderer
     /// </summary>
     public static void DisplayHelper()
     {
+        Console.ForegroundColor = ConsoleColor.Blue;
+
         Console.WriteLine($"You may use the following commands to move or interact with the world:");
         Console.WriteLine($"{"move north", -20} - moves you -1 Row units.");
         Console.WriteLine($"{"move south", -20} - moves you +1 Row units.");
@@ -20,5 +22,7 @@ class Renderer
         Console.WriteLine($"{"help", -20} - opens this helper menu.");
         Console.WriteLine("Press any key to continue...");
         Console.ReadKey();
+        
+        Console.ResetColor();
     }
 }

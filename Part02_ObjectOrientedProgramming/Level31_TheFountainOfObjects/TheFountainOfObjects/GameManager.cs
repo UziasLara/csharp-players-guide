@@ -18,19 +18,22 @@ class GameManager : IGameWorld
         ISense[] senses =
         {
             new FountainSense(),
-            new EntranceSense()
+            new EntranceSense(),
+            new PitSense()
         };
         
         ShowHelp();
 
-        while (!HasWinner)
-        {
+        while (Player.IsAlive && !HasWinner)
+        {            
             Console.Clear();
             Renderer.DisplayPlayer(Player);
 
             foreach (ISense sense in senses)
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 sense.Execute(this);
+                Console.ResetColor();
             }
             string action = InputManager.GetInput("What would you like to do? ");
 
@@ -38,8 +41,24 @@ class GameManager : IGameWorld
             ICommand? command = GetCommand(action);
             command?.Execute(this);
 
+            if (Board.GetRoomAt(Player.Point) == Room.Pit)
+            {
+                Player.Kill("You've fallen into pit!");
+            }
+            
         }
-        Console.WriteLine("The Fountain of Objects has been reactivated, and you have escaped with your life!\nYou win!");
+        if(HasWinner)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("The Fountain of Objects has been reactivated, and you have escaped with your life!\nYou win!");
+            Console.ResetColor();
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(Player.DeathMessage);
+            Console.WriteLine("Gave Over");
+        }
     }
     /// <summary>
     /// Sets state of Fountain to true/false
