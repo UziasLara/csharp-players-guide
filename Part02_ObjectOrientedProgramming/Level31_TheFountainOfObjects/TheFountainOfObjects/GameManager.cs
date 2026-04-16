@@ -4,28 +4,32 @@ class GameManager : IGameWorld
     public Player Player { get; }
     public bool IsFountainEnabled { get; private set; }
     public bool HasWinner { get; private set; }
-    public GameManager(Board board, Player player)
+    public Monster[] Monsters { get; private set; }
+
+    public GameManager(Board board, Player player, Monster[] monsters)
     {
         Board = board;
         Player = player;
+        Monsters = monsters;
     }
-    
+
     /// <summary>
     /// Starts a game of The Fountain of Objects game
     /// </summary>
     public void Run()
-    {        
+    {
         ISense[] senses =
         {
             new FountainSense(),
             new EntranceSense(),
-            new PitSense()
+            new PitSense(),
+            new MaelstromSense()
         };
-        
+
         ShowHelp();
 
         while (Player.IsAlive && !HasWinner)
-        {            
+        {
             Console.Clear();
             Renderer.DisplayPlayer(Player);
 
@@ -41,13 +45,28 @@ class GameManager : IGameWorld
             ICommand? command = GetCommand(action);
             command?.Execute(this);
 
+            foreach (Monster monster in Monsters)
+            {
+                if (monster is Maelstrom && Player.Point == monster.Point)
+                {
+                    // Initialize next Point to 1-unit south and 2-units west
+                    Point next = new Point(Player.Point.Row + 1, Player.Point.Col - 2);
+                    Player.MoveTo(Board.Clamp(next));
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine($"You were moved to: {Player.GetPositionLabel()} by the maelstrom.");
+                    Console.ResetColor();
+                    Console.WriteLine("Press any key to continue");
+                    Console.ReadKey();
+                }
+            }
             if (Board.GetRoomAt(Player.Point) == Room.Pit)
             {
-                Player.Kill("You've fallen into pit!");
+                Player.Kill("You've fallen into a pit!");
             }
-            
+
+
         }
-        if(HasWinner)
+        if (HasWinner)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("The Fountain of Objects has been reactivated, and you have escaped with your life!\nYou win!");
@@ -59,6 +78,7 @@ class GameManager : IGameWorld
             Console.WriteLine(Player.DeathMessage);
             Console.WriteLine("Gave Over");
         }
+
     }
     /// <summary>
     /// Sets state of Fountain to true/false
@@ -69,8 +89,8 @@ class GameManager : IGameWorld
     /// Sets state of HasWinner to true/false
     /// </summary>
     public void ToggleWinner() => HasWinner = !HasWinner;
-        
-    
+
+
     /// <summary>
     /// Gets the appropriate command based on user input.
     /// </summary>

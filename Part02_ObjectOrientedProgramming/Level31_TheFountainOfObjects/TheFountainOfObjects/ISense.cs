@@ -30,20 +30,37 @@ class EntranceSense : ISense
 {
     public void Execute(IGameWorld world)
     {
-        if(world.Board.GetRoomAt(world.Player.Point) == Room.Entrance)
+        if (world.Board.GetRoomAt(world.Player.Point) == Room.Entrance)
         {
             Console.WriteLine("You see light coming from the cavern entrance.");
         }
     }
-} 
+}
 
 class PitSense : ISense
 {
     public void Execute(IGameWorld world)
     {
-        if(world.Board.IsAdjacentTo(world.Player.Point, Room.Pit))
+        if (world.Board.IsAdjacentTo(world.Player.Point, Room.Pit))
         {
             Console.WriteLine("You feel a draft. There is a pit in a nearby room.");
+        }
+    }
+}
+
+class MaelstromSense : ISense
+{
+    public void Execute(IGameWorld world)
+    {
+        Point player = world.Player.Point;
+
+        foreach (Monster monster in world.Monsters)
+        {
+            if (monster is Maelstrom && world.Board.AreAllAroundAdjacent(player, monster.Point))
+            {
+                Console.WriteLine("You hear the growling and groaning of a maelstron nearby");
+                break;
+            }
         }
     }
 }

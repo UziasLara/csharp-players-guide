@@ -39,12 +39,22 @@ class Board
 
     }
 
-    public bool AreAdjacent(Point source, Point target)
+    public bool AreAllAroundAdjacent(Point source, Point target)
     {
-        int row = Math.Abs(source.Row - target.Row);
-        int col = Math.Abs(source.Col - target.Col);
-        
-        return (row + col) == 1;
+        int rowDiff = Math.Abs(source.Row - target.Row);
+        int colDiff = Math.Abs(source.Col - target.Col);
+
+        if (rowDiff == 0 && colDiff == 0) return false;
+
+        return (rowDiff) <= 1 && (colDiff) <= 1;
+    }
+
+    public Point Clamp(Point point)
+    {
+        int row = Math.Clamp(point.Row, 0, Rooms.GetLength(0) -1 );
+        int col = Math.Clamp(point.Col, 0, Rooms.GetLength(1) -1);
+
+        return new Point(row, col);
     }
 }
 
