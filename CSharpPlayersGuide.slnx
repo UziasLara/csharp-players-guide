@@ -93,4 +93,7 @@
   <Folder Name="/Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/">
     <Project Path="Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/TheFountainOfObjects/TheFountainOfObjects.csproj" />
   </Folder>
+  <Folder Name="/Part02_ObjectOrientedProgramming/Level32_SomeUsefulTypes/">
+    <Project Path="Part02_ObjectOrientedProgramming/Level32_SomeUsefulTypes/TheRobotPilot/TheRobotPilot.csproj" />
+  </Folder>
 </Solution>
