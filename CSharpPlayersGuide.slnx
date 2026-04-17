@@ -97,4 +97,8 @@
     <Project Path="Part02_ObjectOrientedProgramming/Level32_SomeUsefulTypes/ListsOfCommands/ListsOfCommands.csproj" />
     <Project Path="Part02_ObjectOrientedProgramming/Level32_SomeUsefulTypes/TheRobotPilot/TheRobotPilot.csproj" />
   </Folder>
+  <Folder Name="/Part03_AdvancedTopics/" />
+  <Folder Name="/Part03_AdvancedTopics/Level33_ManagingLargerPrograms/">
+    <Project Path="Part03_AdvancedTopics/Level33_ManagingLargerPrograms/TheFeud/TheFeud.csproj" />
+  </Folder>
 </Solution>

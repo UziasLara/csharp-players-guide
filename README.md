@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-31-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-6100-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2032-100-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-61%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-6175-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2032-25-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-62%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -160,11 +160,11 @@ I will also attempt to link every completed challenge to its respective solution
 
 </details>
 
-## Part 3: Advanced Features 🌊
+## Part 3: Advanced Topics 🌊
 
 #### Level 33 - Managing Larger Programs
 - [X] [Knowledge Check: Large Programs](./Part03_AdvancedTopics/Level33_ManagingLargerPrograms/LargerPrograms/LargePrograms.md) `+25 XP`
-- [ ] Challenge: The Feud `+75 XP`
+- [X] [Challenge: The Feud](./Part03_AdvancedTopics/Level33_ManagingLargerPrograms/TheFeud/) `+75 XP`
 - [ ] Challenge: Dueling Traditions `+100 XP`
 
 #### Level 34 - Methods Revisited
