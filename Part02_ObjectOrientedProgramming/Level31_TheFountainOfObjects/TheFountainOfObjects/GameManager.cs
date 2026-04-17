@@ -1,3 +1,6 @@
+/// <summary>
+/// Manages a Fountain of Objects game
+/// </summary>
 class GameManager : IGameWorld
 {
     public Board Board { get; }
@@ -18,6 +21,10 @@ class GameManager : IGameWorld
     /// </summary>
     public void Run()
     {
+        Console.Title = "The Fountain of Objects";
+        
+        Renderer.DisplayIntroduction();
+
         ISense[] senses =
         {
             new FountainSense(),
@@ -26,7 +33,7 @@ class GameManager : IGameWorld
             new MonsterSense()
         };
 
-        ShowHelp();
+        Renderer.DisplayHelper();
 
         while (Player.IsAlive && !HasWinner)
         {
@@ -103,19 +110,9 @@ class GameManager : IGameWorld
             "shoot east" => new AttackCommand(Direction.East),
             "shoot west" => new AttackCommand(Direction.West),
             "help" => new HelperCommand(),
+            "show intro" => new GameIntroCommand(),
 
             _ => null
         };
     }
-    /// <summary>
-    /// Calls Renderer's <see cref="Renderer.DisplayHelper"/> method to display useful commands to the user.
-    /// </summary>
-    public void ShowHelp() => Renderer.DisplayHelper();
-    /// <summary>
-    /// Helper 
-    /// </summary>
-    /// <param name="text"></param>
-    /// <param name="color"></param>
-
-
 }

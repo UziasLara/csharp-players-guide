@@ -9,6 +9,4 @@ interface IGameWorld
     bool IsFountainEnabled { get; }
     void ToggleWinner();
     void EnableFountain();
-    void ShowHelp();
-
 }

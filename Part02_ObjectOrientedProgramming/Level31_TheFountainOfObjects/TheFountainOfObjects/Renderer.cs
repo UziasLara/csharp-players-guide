@@ -16,7 +16,7 @@ class Renderer
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Blue;
-        
+
         Console.WriteLine($"You may use the following commands to move or interact with the world:");
         Console.WriteLine($"{"move north",-20} - moves you -1 Row units.");
         Console.WriteLine($"{"move south",-20} - moves you +1 Row units.");
@@ -30,15 +30,18 @@ class Renderer
         Console.WriteLine();
         Console.WriteLine($"{"enable fountain",-20} - enables The Fountain of Objects if present");
         Console.WriteLine($"{"exit cavern",-20} - allows you to exit the cavern if objective is met");
+        Console.WriteLine();
+        Console.WriteLine($"{"show intro",-20} - shows introductory game text");
         Console.WriteLine($"{"help",-20} - opens this helper menu.");
         Console.WriteLine();
-        Console.WriteLine("Press any key to continue...");
-        Console.ReadKey();
 
         Console.ResetColor();
+
+        Console.WriteLine("Press any key to continue...");
+        Console.ReadKey();
     }
     /// <summary>
-    /// Prints text to console accordint to the provided foreground <see cref="ConsoleColor"/>
+    /// Prints text to console according to the provided foreground <see cref="ConsoleColor"/>
     /// </summary>
     /// <param name="text">Text to display.</param>
     /// <param name="color"><see cref="ConsoleColor" to display text in./></param>
@@ -47,5 +50,29 @@ class Renderer
         Console.ForegroundColor = color;
         Console.WriteLine(text);
         Console.ResetColor();
+    }
+
+    /// <summary>
+    /// Displays introductory game text.
+    /// </summary>    
+    public static void DisplayIntroduction()
+    {
+        Console.Clear();
+        string introText = """
+        You enter the Cavern of Objects, a maze of rooms filled with dangerous pits in search of the Fountain of Objects. 
+        Light is visible only in the entrance, and no other light is seen anywhere in the caverns. 
+        You must navigate the Caverns with your other senses. 
+        Find the Fountain of Objects, activate it, and return to the entrance
+        Look out for pits. You will feel a breeze if a pit is in an adjacent room. If you enter a room with a pit, you will die.
+        Maelstroms are violent forces of sentient wind. Entering a room with one could transport you to any other location in the caverns. 
+        You will be able to hear their growling and groaning in nearby rooms.
+        Amaroks roam the caverns. Encountering one is certain death, but you can smell their rotten stench in nearby rooms.
+        You carry with you a bow and a quiver of arrows. You can use them to shoot monsters in the caverns but be warned: you have a limited supply.
+        """;
+
+        PrettyPrint(introText, ConsoleColor.Blue);
+        Console.WriteLine();
+        Console.WriteLine("Press any key to begin...");
+        Console.ReadKey();
     }
 }

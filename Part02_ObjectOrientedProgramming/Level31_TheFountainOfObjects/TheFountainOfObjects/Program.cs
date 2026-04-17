@@ -1,4 +1,8 @@
-﻿string gameSize = InputManager.GetInput("Would you like to play a small (4x4), medium (6x6), or large (8x8) game? ");
+﻿// Creates and runs a Fountain of Objects version of the Hunt the Wumpus game.
+// Please see The C# Player's Guide by RB Whitaker. for more details.
+
+Console.Clear();
+string gameSize = InputManager.GetInput("Would you like to play a small (4x4), medium (6x6), or large (8x8) game? ");
 
 GameManager? game = gameSize switch
 {

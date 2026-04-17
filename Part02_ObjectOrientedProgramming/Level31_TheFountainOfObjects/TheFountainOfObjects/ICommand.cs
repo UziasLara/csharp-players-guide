@@ -1,6 +1,3 @@
-using System.Data;
-
-
 /// <summary>
 /// Base class to build game commands upon
 /// </summary>
@@ -16,7 +13,17 @@ class HelperCommand : ICommand
 {
     public void Execute(IGameWorld world)
     {
-        world.ShowHelp();
+        Renderer.DisplayHelper();
+    }
+}
+/// <summary>
+/// Command to display game's introduction text
+/// </summary>
+class GameIntroCommand : ICommand
+{
+    public void Execute(IGameWorld world)
+    {
+        Renderer.DisplayIntroduction();
     }
 }
 
