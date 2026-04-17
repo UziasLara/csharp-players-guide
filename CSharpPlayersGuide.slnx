@@ -99,6 +99,7 @@
   </Folder>
   <Folder Name="/Part03_AdvancedTopics/" />
   <Folder Name="/Part03_AdvancedTopics/Level33_ManagingLargerPrograms/">
+    <Project Path="Part03_AdvancedTopics/Level33_ManagingLargerPrograms/DuelingTraditions/DuelingTraditions.csproj" />
     <Project Path="Part03_AdvancedTopics/Level33_ManagingLargerPrograms/TheFeud/TheFeud.csproj" />
   </Folder>
 </Solution>
