@@ -1,10 +1,10 @@
 # The C# Player's Guide Challenges
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
-![Current Level](https://custom-icon-badges.demolab.com/badge/Level-30-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-5950-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2031-50-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-58%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Current Level](https://custom-icon-badges.demolab.com/badge/Level-31-01A4FF.svg?logo=shield-check&logoColor=white) 
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-6000-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2032-200-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-59%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -147,7 +147,7 @@ I will also attempt to link every completed challenge to its respective solution
 
 #### Level 32 - Some Useful Types
 - [X] [Challenge: The Robot Pilot](./Part02_ObjectOrientedProgramming/Level32_SomeUsefulTypes/TheRobotPilot/) `+50 XP`
-- [ ] Challenge: Time in the Cavern `+50 XP`
+- [X] [Challenge: Time in the Cavern](./Part02_ObjectOrientedProgramming/Level31_TheFountainOfObjects/TheFountainOfObjects/) `+50 XP`
 - [ ] Challenge: Lists of Commands `+75 XP`
 
 ---

@@ -75,4 +75,12 @@ class Renderer
         Console.WriteLine("Press any key to begin...");
         Console.ReadKey();
     }
+    /// <summary>
+    /// Displays the time taken to complete a run of the game.
+    /// </summary>
+    /// <param name="runTime">The run time.</param>
+    public static void DisplayRunTime(TimeSpan runTime)
+    {
+        PrettyPrint($"Run time: {runTime}",ConsoleColor.White);
+    }
 }

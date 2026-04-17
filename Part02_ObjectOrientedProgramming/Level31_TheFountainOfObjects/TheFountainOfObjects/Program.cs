@@ -2,6 +2,8 @@
 // Please see The C# Player's Guide by RB Whitaker. for more details.
 
 Console.Clear();
+
+
 string gameSize = InputManager.GetInput("Would you like to play a small (4x4), medium (6x6), or large (8x8) game? ");
 
 GameManager? game = gameSize switch
@@ -12,7 +14,14 @@ GameManager? game = gameSize switch
     _ => null
 };
 
+DateTime gameStart = DateTime.Now;
 game?.Run();
+DateTime gameEnd = DateTime.Now;
+
+TimeSpan runTime = gameEnd - gameStart;
+
+Renderer.DisplayRunTime(runTime);
+
 
 // Returns a small 4x4 Fountain of Objects game
 // with 1 Pit and 1 Maelstrom
