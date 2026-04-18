@@ -102,4 +102,7 @@
     <Project Path="Part03_AdvancedTopics/Level33_ManagingLargerPrograms/DuelingTraditions/DuelingTraditions.csproj" />
     <Project Path="Part03_AdvancedTopics/Level33_ManagingLargerPrograms/TheFeud/TheFeud.csproj" />
   </Folder>
+  <Folder Name="/Part03_AdvancedTopics/Level34_MethodsRevisited/">
+    <Project Path="Part03_AdvancedTopics/Level34_MethodsRevisited/SaferNumberCrunching/SaferNumberCrunching.csproj" />
+  </Folder>
 </Solution>
