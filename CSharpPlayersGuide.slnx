@@ -106,4 +106,7 @@
     <Project Path="Part03_AdvancedTopics/Level34_MethodsRevisited/BetterRandom/BetterRandom.csproj" />
     <Project Path="Part03_AdvancedTopics/Level34_MethodsRevisited/SaferNumberCrunching/SaferNumberCrunching.csproj" />
   </Folder>
+  <Folder Name="/Part03_AdvancedTopics/Level35_ErrorHandingAndExceptions/">
+    <Project Path="Part03_AdvancedTopics/Level35_ErrorHandingAndExceptions/ExeptisGame/ExeptisGame.csproj" />
+  </Folder>
 </Solution>
