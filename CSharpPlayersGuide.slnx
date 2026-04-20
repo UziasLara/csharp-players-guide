@@ -109,4 +109,7 @@
   <Folder Name="/Part03_AdvancedTopics/Level35_ErrorHandingAndExceptions/">
     <Project Path="Part03_AdvancedTopics/Level35_ErrorHandingAndExceptions/ExeptisGame/ExeptisGame.csproj" />
   </Folder>
+  <Folder Name="/Part03_AdvancedTopics/Level36_Delegates/">
+    <Project Path="Part03_AdvancedTopics/Level36_Delegates/TheSieve/TheSieve.csproj" />
+  </Folder>
 </Solution>

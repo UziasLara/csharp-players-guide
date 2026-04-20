@@ -1,10 +1,10 @@
 # The C# Player's Guide Challenges
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
-![Current Level](https://custom-icon-badges.demolab.com/badge/Level-33-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-6550-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2034-50-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-67%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Current Level](https://custom-icon-badges.demolab.com/badge/Level-34-01A4FF.svg?logo=shield-check&logoColor=white) 
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-6650-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2035-150-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-68%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -176,7 +176,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Challenge: Exepti’s Game](./Part03_AdvancedTopics/Level35_ErrorHandingAndExceptions/ExeptisGame/) `+100 XP`
 
 #### Level 36 - Delegates
-- [ ] Challenge: The Sieve `+100 XP`
+- [X] [Challenge: The Sieve](./Part03_AdvancedTopics/Level36_Delegates/TheSieve/) `+100 XP`
 
 #### Level 37 - Events
 - [ ] Knowledge Check: Events `+25 XP`
