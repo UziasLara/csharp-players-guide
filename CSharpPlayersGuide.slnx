@@ -115,4 +115,7 @@
   <Folder Name="/Part03_AdvancedTopics/Level37_Events/">
     <Project Path="Part03_AdvancedTopics/Level37_Events/CharberryTrees/CharberryTrees.csproj" />
   </Folder>
+  <Folder Name="/Part03_AdvancedTopics/Level38_LambdaExpressions/">
+    <Project Path="Part03_AdvancedTopics/Level38_LambdaExpressions/TheLambdaSieve/TheLambdaSieve.csproj" />
+  </Folder>
 </Solution>
