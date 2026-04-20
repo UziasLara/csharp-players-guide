@@ -112,4 +112,7 @@
   <Folder Name="/Part03_AdvancedTopics/Level36_Delegates/">
     <Project Path="Part03_AdvancedTopics/Level36_Delegates/TheSieve/TheSieve.csproj" />
   </Folder>
+  <Folder Name="/Part03_AdvancedTopics/Level37_Events/">
+    <Project Path="Part03_AdvancedTopics/Level37_Events/CharberryTrees/CharberryTrees.csproj" />
+  </Folder>
 </Solution>
