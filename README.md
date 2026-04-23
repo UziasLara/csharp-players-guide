@@ -2,9 +2,9 @@
 
 ![C#](https://custom-icon-badges.demolab.com/badge/C%23-%2300599C.svg?logo=cshrp&logoColor=white)
 ![Current Level](https://custom-icon-badges.demolab.com/badge/Level-35-01A4FF.svg?logo=shield-check&logoColor=white) 
-![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-6850-A7F175.svg?logo=bookmark-fill&logoColor=white)
-![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2036-150-0052CC.svg?logo=rocket&logoColor=white)
-![Progress](https://custom-icon-badges.demolab.com/badge/Progress-72%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
+![Total XP](https://custom-icon-badges.demolab.com/badge/Total%20XP-6950-A7F175.svg?logo=bookmark-fill&logoColor=white)
+![Next Level](https://custom-icon-badges.demolab.com/badge/XP%20to%20Level%2036-50-0052CC.svg?logo=rocket&logoColor=white)
+![Progress](https://custom-icon-badges.demolab.com/badge/Progress-73%20%2F%20113-F4AA41.svg?logo=star-fill&logoColor=white)
 
 I endeavor to showcase my progress throughout the book [*The C# Player's Guide*](https://csharpplayersguide.com/) by RB Whitaker.
 
@@ -187,7 +187,7 @@ I will also attempt to link every completed challenge to its respective solution
 - [X] [Challenge: The Lambda Sieve](./Part03_AdvancedTopics/Level38_LambdaExpressions/TheLambdaSieve/) `+50 XP`
 
 #### Level 39 - Files
-- [ ] Challenge: The Long Game `+100 XP`
+- [X] [Challenge: The Long Game](./Part03_AdvancedTopics/Level39_Files/TheLongGame/) `+100 XP`
 
 #### Level 40 - Pattern Matching
 - [ ] Challenge: The Potion Masters of Pattern `+150 XP`
