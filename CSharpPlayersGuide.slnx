@@ -118,4 +118,7 @@
   <Folder Name="/Part03_AdvancedTopics/Level38_LambdaExpressions/">
     <Project Path="Part03_AdvancedTopics/Level38_LambdaExpressions/TheLambdaSieve/TheLambdaSieve.csproj" />
   </Folder>
+  <Folder Name="/Part03_AdvancedTopics/Level40_PatternMatching/">
+    <Project Path="Part03_AdvancedTopics/Level40_PatternMatching/ThePotionMastersOfPattren/ThePotionMastersOfPattren.csproj" />
+  </Folder>
 </Solution>
